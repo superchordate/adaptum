@@ -1,0 +1,73 @@
+/* Font family will be inherited from the parent element. */
+
+/* Main div used to contain adaptum elements. */
+.adaptum_mainDiv {
+    text-align: left;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+.adaptum_subDiv {
+    display: inline-block;
+}
+
+/* Chart styles */
+
+    /* Header, footer & labels (optional - these can be replaced by setting config.classNames). */
+    .adaptum_chartHeader {
+        font-size: 16pt;
+        margin: 0;
+        text-align: left;
+    }
+    .adaptum_chartSubHeader {
+        font-size: 12pt;
+        color: #999999;
+        margin: 0;
+    }
+    .adaptum_chartLabel {
+        font-size: 14pt;
+        color: #000000;
+        letter-spacing: 1.5px;
+    }
+
+    /* Colors for the keys & polygons used in charts. Add additional colors if you need them. */
+    .adaptum_data_0 { fill:  #FAA43A; }
+    .adaptum_data_1 { fill:  #5DA5DA; }
+    .adaptum_data_2 { fill:  #60BD68; }
+    .adaptum_data_3 { fill:  #F17CB0; }
+    .adaptum_data_4 { fill:  #B2912F; }
+    .adaptum_data_5 { fill:  #B276B2; }
+    .adaptum_data_6 { fill:  #DECF3F; }
+    .adaptum_data_7 { fill:  #F15854; }
+    .adaptum_data_8 { fill:  #4D4D4D; }
+
+    /* Additional formatting for chart polygons (you can add outline, etc. here). */
+    .adaptum_data_polygon { stroke: #000000; stroke-width: 0.5px; opacity:  0.6;}
+    .adaptum_chart_polygon { stroke: #CCCCCC; fill: none; }
+
+    /* Colors used in labeling, outlines, etc. */
+    .adaptum_metadata_light { fill: #CCCCCC; }
+    .adaptum_metadata_medium { fill: #999999; }
+    .adaptum_metadata_heavy { fill: #000000; }
+
+/* Data table styles (optional - these can be replaced via config.classNames). */
+
+    .adaptum_datatable {
+        display: inline-block;
+        font-size: 11pt;
+        margin: 10px;
+    }
+
+    .adaptum_datatable, .adaptum_datatable th, .adaptum_datatable td {
+        border-collapse: collapse;
+    }
+    .adaptum_datatable tr:nth-child(2n+1) { /* N-th child formatting for alternating rows. */
+        background-color: #F2F2F2;
+    }
+
+    .adaptum_datatable th, .adaptum_datatable td {
+        padding: 4px;
+        border: 1px solid #999999;
+    }
