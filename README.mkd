@@ -1,1 +1,1 @@
-My attempt a flexible charting library in Javascript.
+My attempt at a flexible charting library in Javascript.
