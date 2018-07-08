@@ -1,4 +1,4 @@
-My attempt at a flexible charting library in Javascript/d3. The package reads the chart DNA (data) and plots the appropriate chart.
+My attempt at a flexible charting library in Javascript/d3. The package reads the chart DNA and plots the appropriate chart, you don't have to specify any further options, including chart type!
 
 main.html and files in css, js, is an example of how the framework is used in an app. adaptum.js is the main adaptum code, but requires d3.
 
