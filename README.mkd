@@ -13,8 +13,6 @@ randomizer = function (range_max, length, slope) {
     };
 ```
 
-Bar Chart: 
-
 ![Bar Chart Screenshot](https://github.com/superchordate/adaptum/blob/master/img/bar.png?raw=true)
 
 ```javascript
@@ -41,7 +39,6 @@ Bar Chart:
 
 ```
 
-Line Chart:
 ![Line Chart Screenshot](https://github.com/superchordate/adaptum/blob/master/img/line.png?raw=true)
 
 ```javascript
@@ -64,7 +61,6 @@ Line Chart:
 
 ```
 
-Spider Chart:
 ![Spider Chart Screenshot](https://github.com/superchordate/adaptum/blob/master/img/spider.png?raw=true)
 
 ```javascript
